@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<question id="1">
+    <answers>
+        <answername>Spring MVC</answername>
+        <id>51</id>
+        <postedby>framework</postedby>
+    </answers>
+    <answers>
+        <answername>test</answername>
+        <id>52</id>
+        <postedby>user</postedby>
+    </answers>
+    <questionname>What is java?</questionname>
+</question>
