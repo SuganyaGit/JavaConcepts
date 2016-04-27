@@ -1,3 +1,20 @@
+/*
+Comparable provides single sorting sequence.sort the collection on the basis of single element such as id 
+Comparator provides multiple sorting sequence
+
+Comparable affects the original class
+Comparator doesn't affect the original class i.e. actual class is not modified.
+
+Comparable provides compareTo() method to sort elements.
+Comparator provides compare() method to sort elements.
+
+Comparable is found in java.lang package.
+Comparator is found in java.util package.
+
+sort the list elements of Comparable type by Collections.sort(List) method.
+sort the list elements of Comparator type by Collections.sort(List,Comparator) method.
+
+*/
 import java.util.*;  
 import java.io.*;
   
