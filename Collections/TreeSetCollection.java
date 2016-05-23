@@ -1,6 +1,7 @@
 /*
 contains unique elements only like HashSet. The TreeSet class implements NavigableSet interface that extends the SortedSet interface.
 maintains ascending order.
+No null(No error in compilation, but during runtime error will be displayed)
 */
 
 import java.util.*;
