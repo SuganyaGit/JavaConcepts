@@ -1,6 +1,7 @@
 /*
 contains unique elements only like HashSet. It extends HashSet class and implements Set interface.
 maintains insertion order.
+Accepts one null
 */
 
 import java.util.*;
