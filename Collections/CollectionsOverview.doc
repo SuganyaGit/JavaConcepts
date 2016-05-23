@@ -1,0 +1,15 @@
+Collection  	Maintain Insertion order        	Accept null	Allow Duplicates	Default Sorting	
+Arraylist     Y       	Y                          	Y       	N	
+LinkedList    Y	        Y                         	Y	        N	
+HashSet       N       	Y(One null)               	N       	N	
+LinkedHashSet	Y	        Y(One null)	                N	        N	
+Treeset	      N       	N	                          N       	Y(Asc)	
+HashMap	      N       	Y(One null key)	            N	        N	              Can have multiple null Values
+LinkedHashMap	Y	        Y(One null key)	            N       	N	              Can have multiple null Values
+TreeMap	      N	        N(No null key)	            N	        Y(Asc)	        Can have multiple null Values
+HashTable	    N	        N(No null key and value)	  N	        N	              A Hashtable is an array of list.
+                                                                              Each list is known as a bucket.
+                                                                              The position of bucket is identified by calling the hashcode() method.
+                                                                              A Hashtable contains values based on the key.
+                                                                              It implements the Map interface and extends Dictionary class
+
