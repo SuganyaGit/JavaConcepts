@@ -2,7 +2,7 @@
 uses hashtable to store the elements.It extends AbstractSet class and implements Set interface.
 contains unique elements only.
 can have one null element
-
+Insertion Order not maintained
 List can contain duplicate elements whereas Set contains unique elements only.
 */
 
