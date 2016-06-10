@@ -1,0 +1,52 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
+
+
+class TestSplit{
+
+
+public static void main(String args[]){
+
+String arg="123 456 789";
+
+List<String> list = new ArrayList<String>(Arrays.asList(arg.split(" ")));
+int maxVal=5;
+int totalFiles=list.size()/maxVal;
+int remainingCount=list.size()%maxVal;
+
+if(remainingCount>0){
+totalFiles++;
+}
+System.out.println("ListSize="+list.size());
+System.out.println("remainingCount="+remainingCount);
+System.out.println("totalFiles="+totalFiles);
+
+int firstIndex=0;
+int lastIndex=0;
+List<String> newList=new ArrayList<String>();
+for(int i=0;i<totalFiles;i++){
+
+firstIndex=(i*maxVal);
+lastIndex=((i*maxVal)+maxVal);
+
+
+if(lastIndex>list.size()){
+System.out.println("ins lastIndex="+lastIndex);
+lastIndex=list.size();
+
+}
+System.out.println("firstIndex="+firstIndex);
+System.out.println("lastIndex="+lastIndex);
+
+newList=list.subList(firstIndex,lastIndex);
+System.out.println(newList.size()+":"+newList);
+
+System.out.println("==================");
+}
+
+
+}
+
+
+}
